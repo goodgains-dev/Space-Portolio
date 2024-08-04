@@ -16,7 +16,7 @@ import PropTypes from "prop-types";
 /**
  * @param {ButtonProps} props
  */
-const Button = ({ className = '', href = '', onClick = () => {}, px = 16, white = false, children }) => {
+const Button = ({ className = '', href = '', onClick = () => {}, px = 16, white = false, children }: { className?: string, href?: string, onClick?: () => void, px?: number, white?: boolean, children: React.ReactNode }) => {
   return (
     <a
       href={href}
