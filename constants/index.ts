@@ -103,13 +103,29 @@ export const ProImages = [
   },
 ];
 
-export const ProImages2 = [
-  { src: "/assets/projects/Orange1.jpeg" },
-  { src: "/assets/projects/Orange2.jpeg" },
-  { src: "/assets/projects/Orange3.jpeg" },
-  { src: "/assets/projects/Orange4.jpeg" },
-];
 
+export const ProImages2 = [
+  { 
+    src: "/assets/projects/SpaceCity4.jpg",
+    title: "Project Work",
+    description: "Showcase your projects"
+  },
+  { 
+    src: "/assets/projects/SpaceCity5.jpg",
+    title: "Volunteer Experience",
+    description: "Highlight your contributions"
+  },
+  { 
+    src: "/assets/projects/SpaceCity6.jpg",    
+    title: "Awards & Honors",
+    description: "Display your accolades"
+  },
+  { 
+    src: "/assets/projects/SpaceCity7.jpg",    
+    title: "Publications",
+    description: "Share your published work"
+  },
+];
 // Service Data
 export const ServiceData = [
   {
