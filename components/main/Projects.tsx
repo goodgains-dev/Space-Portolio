@@ -12,7 +12,7 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/NextWebsite.jpg"
+          src="/nextwebsite.PNG"
           title="Your social productivity App"
           description="streamline communication with GoodGains Work, with a UI that's not only intuitive but fully customizable."
         />
