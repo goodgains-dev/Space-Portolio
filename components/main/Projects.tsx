@@ -8,23 +8,23 @@ const Projects = () => {
       id="projects"
     >
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
-        My Projects
+        Our Products
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/NextWebsite.jpg"
+          title="Your social productivity App"
+          description="streamline communication with GoodGains Work, with a UI that's not only intuitive but fully customizable."
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/Customize.PNG"
+          title="End to End Customization"
+          description="Fully customizable with your choice of level of data encryption, themes, AI model, and even different fonts."
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/Chat.PNG"
+          title="Socialize and Chat"
+          description="This all-in-one solution is designed to enhance collaboration, socialize in your digital third place, and optimize scheduling, making it an indispensable tool for both educational institutions and businesses."
         />
       </div>
     </div>
